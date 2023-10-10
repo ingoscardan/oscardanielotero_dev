@@ -1,0 +1,33 @@
+.presentation {
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.presentation.on-big-screen{
+  max-width: 600px;
+}
+
+.presentation mat-chip{
+  height: 1em !important;
+}
+
+.hello-world {
+  font-family: Comfortaa;
+
+  h3 {
+    font-size: calc(0.55rem + 1vw);
+    margin-top: 1rem;
+  }
+  h1{
+    font-size: calc(1rem + 1.5vw);
+    margin-bottom: 0;
+    .name {
+      color: #eb5e28;
+    }
+  }
+}
+.languages {
+  background-size: 20% auto;
+  background-repeat: repeat-x;
+  background-color: #403d39;
+}

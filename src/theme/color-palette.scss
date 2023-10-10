@@ -1,0 +1,69 @@
+$base-background-color: #ccc5b9;
+$base-black-color: #242522;
+$base-white-color: #fffcf2;
+
+$web-primary-palette: (
+  50 : #fffffd,
+  100 : #fffefb,
+  200 : #fffef9,
+  300 : #fffdf6,
+  400 : #fffcf4,
+  500 : #fffcf2,
+  600 : #fffcf0,
+  700 : #fffbee,
+  800 : #fffbec,
+  900 : #fffae8,
+  A100 : #ffffff,
+  A200 : #ffffff,
+  A400 : #ffffff,
+  A700 : #ffffff,
+  contrast: (
+    50 : $base-black-color,
+    100 : $base-black-color,
+    200 : $base-black-color,
+    300 : $base-black-color,
+    400 : $base-black-color,
+    500 : $base-black-color,
+    600 : $base-black-color,
+    700 : $base-black-color,
+    800 : $base-black-color,
+    900 : $base-black-color,
+    A100 : $base-black-color,
+    A200 : $base-black-color,
+    A400 : $base-black-color,
+    A700 : $base-black-color,
+  )
+);
+
+$web-accent-palette: (
+  50 : #fdece5,
+  100 : #f9cfbf,
+  200 : #f5af94,
+  300 : #f18e69,
+  400 : #ee7648,
+  500 : #eb5e28,
+  600 : #e95624,
+  700 : #e54c1e,
+  800 : #e24218,
+  900 : #dd310f,
+  A100 : #ffffff,
+  A200 : #ffdcd6,
+  A400 : #ffafa3,
+  A700 : #ff998a,
+  contrast: (
+    50 : $base-black-color,
+    100 : $base-black-color,
+    200 : $base-black-color,
+    300 : $base-black-color,
+    400 : $base-black-color,
+    500 : $base-black-color,
+    600 : $base-white-color,
+    700 : $base-white-color,
+    800 : $base-white-color,
+    900 : $base-white-color,
+    A100 : $base-black-color,
+    A200 : $base-black-color,
+    A400 : $base-black-color,
+    A700 : $base-black-color,
+  )
+);
