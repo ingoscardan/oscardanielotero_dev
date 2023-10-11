@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {LayoutService} from "../../layout.service";
-import {Observable} from "rxjs";
 
 @Component({
   selector: 'app-about-me',
@@ -20,7 +19,7 @@ export class AboutMeComponent implements OnInit{
     const todaysDate = new Date();
     this.yearsOfExperience = todaysDate.getFullYear() - this.startWorkingDate.getFullYear();
     this.layoutService.isMobilDevice.subscribe(res => {
-      this.isBigScreen = !res ? true: false;
+      this.isBigScreen = !res;
     });
   }
 
