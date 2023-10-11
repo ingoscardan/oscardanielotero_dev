@@ -1,13 +1,11 @@
 import {
-  AfterViewChecked,
   AfterViewInit,
   Component,
   OnInit,
   ViewChild
 } from '@angular/core';
-import {BreakpointObserver, Breakpoints, BreakpointState} from "@angular/cdk/layout";
 import {MatSidenav} from "@angular/material/sidenav";
-import {map, Observable} from "rxjs";
+import {Observable} from "rxjs";
 import {LayoutService} from "./layout.service";
 
 @Component({
@@ -21,7 +19,7 @@ export class AppComponent implements OnInit, AfterViewInit{
   isHandset!: Observable<boolean>;
   isLargeScreen!: Observable<boolean>;
 
-  constructor(private breakPointObserver: BreakpointObserver, private layoutService: LayoutService) {
+  constructor(private layoutService: LayoutService) {
   }
 
   ngOnInit(): void {

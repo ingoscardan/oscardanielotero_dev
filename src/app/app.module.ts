@@ -3,14 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-//Angular Material Modules
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
 import {MatSidenavModule} from "@angular/material/sidenav";
-
-//Components
 import {MatListModule} from "@angular/material/list";
 import { ExperienceComponent } from './components/experience/experience.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
